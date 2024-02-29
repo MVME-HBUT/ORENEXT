@@ -45,3 +45,12 @@ python demo/image_demo.py test_demo/*.png configs/××.py work_dirs/××.pth --d
 ```
 
 ## Cite
+
+```
+@misc{sun2024efficient,
+    title={An Efficient MLP-based Point-guided Segmentation Network for Ore Images with Ambiguous Boundary},
+    author={Guodong Sun and Yuting Peng and Le Cheng and Mengya Xu and An Wang and Bo Wu and Hongliang Ren and Yang Zhang},
+    year={2024},
+    journal={IEEE Transactions on Industrial Informatics}, 
+}
+```
