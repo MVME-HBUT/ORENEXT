@@ -17,6 +17,7 @@ Create a conda virtual environment and activate it:
 conda create -n ORENeXt python=3.7 -y
 conda activate ORENeXt
 ```
+Please refer to [get_started.md](https://github.com/open-mmlab/mmdetection/blob/master/docs/en/get_started.md) for installation.
 
 Dependencies
   - Linux or Windows
@@ -38,9 +39,9 @@ CUDA_VISIBLE_DEVICES=×× python ./tools/train.py ./configs/××.py   --cfg-opti
 ```
 CUDA_VISIBLE_DEVICES=×× python tools/test.py ./configs/××.py ./××.pth --eval bbox segm
 ```
-##Visualize the results
+## Visualize the results
 ```
 python demo/image_demo.py test_demo/*.png configs/××.py work_dirs/××.pth --device cpu
 ```
 
-##Cite
+## Cite
